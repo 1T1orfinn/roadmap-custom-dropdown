@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#container, #dropdown {
+    padding: 5px;
+    border: 2px solid black;
+    width: 8rem;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.selected {
+    background-color: aquamarine;
+}
+
+.option:hover {
+    background-color: lightgreen;
+}
